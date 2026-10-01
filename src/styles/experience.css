@@ -1,0 +1,92 @@
+.experience-page { color: var(--ink); overflow-wrap: anywhere; }
+.experience-kicker { margin: 0 0 20px; font-size: 13px; font-weight: 550; }
+.experience-role-header { display: flex; align-items: center; justify-content: space-between; margin: -6px 0 12px -10px; }
+.experience-role-header button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.experience-role-header span { padding: 4px 7px; border-radius: 4px; background: #e7fff4; color: #315e4c; font-size: 10px; }
+.experience-hero h1 { margin: 0; font-size: 32px; line-height: 1.5; letter-spacing: -.8px; font-weight: 550; }
+.experience-hero h1:focus { outline: none; }
+.experience-hero h1 span { text-decoration: underline; text-decoration-color: var(--mint); text-decoration-thickness: 7px; text-underline-offset: 1px; text-decoration-skip-ink: none; }
+.experience-intro { margin: 12px 0 13px; font-size: 15px; line-height: 1.9; }
+.experience-trust { display: flex; align-items: flex-start; gap: 5px; margin: 0; font-size: 10px; line-height: 1.8; color: var(--secondary); }
+.experience-trust svg { margin-top: 2px; flex-shrink: 0; color: #247954; }
+.experience-summary { display: flex; flex-wrap: wrap; gap: 17px 19px; margin: 26px 0 29px; }
+.experience-summary > div { display: flex; align-items: center; gap: 9px; flex: 1; }
+.experience-summary strong { font-size: 37px; font-weight: 550; line-height: 1.1; letter-spacing: -1px; color: var(--pink-action); }
+.experience-summary > div:nth-child(2) strong { color: var(--ink); text-decoration: underline; text-decoration-color: var(--mint); text-decoration-thickness: 7px; text-underline-offset: 1px; }
+.experience-summary > div p { margin: 0; font-size: 10px; line-height: 1.8; color: #555; }
+.experience-summary-caption { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 13px; flex-basis: 100%; margin: 0; font-size: 10px; color: var(--secondary); }
+.experience-summary-caption small { font-size: 9px; color: #737373; margin-left: auto; }
+.experience-page h2 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.7; }
+.experience-section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.experience-section-title > span { font-size: 10px; color: var(--secondary); }
+.experience-empty { margin: 14px 0 0; color: var(--secondary); font-size: 12px; line-height: 1.8; }
+.experience-featured { padding: 17px 16px 7px; background: #fff1f7; border-radius: 7px 22px 7px 7px; }
+.experience-featured-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.experience-featured-top > span { font-size: 10px; color: #a93168; }
+.experience-featured-top small { font-size: 9px; color: #666; }
+.experience-title-button { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 48px; padding: 0; background: none; border: 0; color: var(--ink); text-align: left; cursor: pointer; }
+.experience-title-button h3 { margin: 0; font-size: 23px; line-height: 1.5; letter-spacing: -.5px; font-weight: 550; }
+.experience-title-button svg { color: var(--pink-action); flex-shrink: 0; }
+.experience-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.experience-tags > span { padding: 4px 6px; font-size: 10px; background: #d3fce9; border-radius: 3px 5px 3px 3px; line-height: 1.7; }
+.experience-tags > span:nth-child(2n) { background: #fff; }
+.experience-impact { margin: 15px 0 4px; font-size: 11px; color: #595257; }
+.experience-impact > span { padding: 0 7px; color: #aaa; }
+.experience-new { display: flex; align-items: center; gap: 5px; margin: 9px 0 0; font-size: 11px; color: #315f4b; }
+.experience-new svg { background: var(--mint); border-radius: 2px; }
+.experience-view { display: flex; align-items: center; gap: 4px; min-height: 44px; padding: 0; border: 0; background: none; font-size: 12px; color: #9b285c; cursor: pointer; }
+.experience-compact { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 95px; padding: 16px 0; background: none; border: 0; border-bottom: 1px solid #ededed; color: var(--ink); text-align: left; cursor: pointer; }
+.experience-initial { display: grid; place-items: center; flex-shrink: 0; width: 34px; height: 38px; border-radius: 10px 10px 4px 10px; background: var(--mint); font-size: 14px; transform: rotate(-2deg); }
+.experience-initial.is-paused { background: #f1f1ef; }
+.experience-compact-info { display: block; flex: 1; min-width: 0; }
+.experience-compact-info strong { display: block; font-size: 14px; font-weight: 550; }
+.experience-compact-info small { display: block; margin-top: 4px; font-size: 10px; color: var(--secondary); }
+.experience-compact-info > span { display: block; margin-top: 5px; font-size: 10px; color: #737373; }
+.experience-compact > svg { flex-shrink: 0; color: #777; }
+.experience-preferences { margin-top: 26px; }
+.experience-setting { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 55px; font-size: 13px; }
+.experience-switch { position: relative; flex-shrink: 0; display: flex; align-items: center; gap: 4px; min-width: 66px; min-height: 44px; padding: 8px 0; border: 0; background: none; cursor: pointer; }
+.experience-switch > span { position: relative; display: block; width: 40px; height: 24px; border-radius: 13px; background: #d8d8d8; }
+.experience-switch > span::after { content: ''; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px #0001; transition: transform 120ms; }
+.experience-switch[aria-checked=true] > span { background: var(--mint); }
+.experience-switch[aria-checked=true] > span::after { transform: translateX(16px); background: #184c38; }
+.experience-switch small { color: #666; font-size: 9px; }
+.experience-switch:disabled { cursor: default; opacity: .65; }
+.experience-limit { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 48px; padding: 0; border: 0; border-top: 1px solid #ededed; background: none; color: var(--ink); font-size: 13px; cursor: pointer; }
+.experience-limit > span:last-child { display: flex; align-items: center; gap: 8px; color: var(--secondary); }
+.experience-paused-note { margin: 0 0 8px; font-size: 11px; color: var(--secondary); line-height: 1.8; }
+.experience-reuse { margin-top: 23px; padding: 17px 16px; background: #edfff6; border-radius: 6px 17px 6px 6px; }
+.experience-reuse h2 { display: flex; align-items: center; gap: 6px; font-size: 15px; }
+.experience-reuse > p { font-size: 12px; line-height: 1.9; color: #555f59; margin: 10px 0 13px; }
+.experience-reuse > div { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 10px; padding-top: 12px; border-top: 1px solid #cdeedc; }
+.experience-reuse strong { font-weight: 500; color: #315f4b; }
+.experience-sheet { position: fixed; inset: auto 0 0; width: min(100%, 430px); max-width: 430px; max-height: 88dvh; margin: 0 auto; padding: 0; overflow-y: auto; border: 0; background: transparent; color: var(--ink); }
+.experience-sheet::backdrop { background: rgb(24 24 24 / 30%); }
+.experience-sheet-panel { position: relative; padding: 12px 24px calc(24px + env(safe-area-inset-bottom, 0px)); background: #fff; border-radius: 22px 22px 0 0; overflow-wrap: anywhere; }
+.experience-sheet-handle { width: 30px; height: 4px; border-radius: 3px; background: #ddd; margin: 0 auto 22px; }
+.experience-close { position: absolute; top: 15px; right: 10px; display: grid; place-items: center; width: 44px; height: 44px; background: none; border: 0; cursor: pointer; }
+.experience-sheet h2 { font-size: 23px; line-height: 1.5; font-weight: 550; margin: 0 24px 22px 0; }
+.experience-sheet section { margin-top: 20px; }
+.experience-sheet h3 { margin: 0 0 12px; font-size: 13px; line-height: 1.7; font-weight: 550; }
+.experience-sheet .experience-tags > span:nth-child(2n) { background: #f6f6f4; }
+.experience-text-action { min-height: 44px; padding: 0; border: 0; background: none; color: #a52e67; font-size: 11px; cursor: pointer; }
+.experience-tags.is-editing { display: grid; gap: 5px; }
+.experience-edit-tag { display: flex; align-items: center; gap: 10px; padding-left: 8px; background: #f1fff8; border-radius: 5px; font-size: 12px; }
+.experience-retained { display: flex; align-items: center; gap: 2px; margin-left: auto; color: #426b59; font-size: 10px; }
+.experience-edit-tag button { display: flex; align-items: center; gap: 2px; min-height: 44px; padding: 0 10px; border: 0; background: none; font-size: 10px; color: #9e2d62; cursor: pointer; }
+.experience-evidence { padding: 0; margin: 0; list-style: none; font-size: 12px; line-height: 1.9; color: #555; }
+.experience-evidence li { display: flex; align-items: center; gap: 5px; }
+.experience-evidence svg { color: #247954; flex-shrink: 0; }
+.experience-muted { font-size: 11px; line-height: 1.8; color: var(--secondary); margin: 10px 0 0; }
+.experience-latest > div { padding: 13px; margin-top: 8px; background: #f0fff8; border-radius: 6px; }
+.experience-response-question { margin: 0 0 9px; font-size: 10px; color: var(--secondary); line-height: 1.8; }
+.experience-latest blockquote { font-size: 15px; line-height: 1.8; margin: 0; white-space: pre-wrap; }
+.experience-response-note { margin: 8px 0 0; font-size: 12px; line-height: 1.9; white-space: pre-wrap; color: #555; }
+.experience-explanation { margin: 16px 0 10px; font-size: 12px; }
+.experience-explanation summary { display: flex; align-items: center; gap: 5px; list-style: none; min-height: 44px; cursor: pointer; line-height: 1.8; }
+.experience-explanation summary::-webkit-details-marker { display: none; }
+.experience-explanation summary svg { flex-shrink: 0; margin-left: auto; }
+.experience-explanation p { font-size: 12px; color: var(--secondary); line-height: 1.9; margin: 6px 0; }
+.experience-boundary { font-size: 10px; color: var(--secondary); margin: 12px 0 0; line-height: 1.8; }
+.experience-limit-copy { font-size: 14px; line-height: 1.9; margin: 0 0 10px; }
+@media (prefers-reduced-motion: reduce) { .experience-switch > span::after { transition: none; } }
